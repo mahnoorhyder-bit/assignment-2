@@ -59,27 +59,27 @@
 
 // question-6
 
-localStorage.clear()
-let object = {
-name: "Mahnoor",
-age: 19,
-Fname: "Haider",
-cast: "Ali",
-rollNo: 2393
-}
-let object2 = {
-name: "Zeenat",
-age: 21,
-Fname: "Haider",
-cast: "Ali",
-rollNo: 0156
-}
-function SaveObject(key, val){
-let newObject = JSON.stringify(val);
-localStorage.setItem(key, newObject)
-}
-SaveObject("data of obj", object);
-SaveObject("data of obj2", object2)
+// localStorage.clear()
+// let object = {
+// name: "Mahnoor",
+// age: 19,
+// Fname: "Haider",
+// cast: "Ali",
+// rollNo: 2393
+// }
+// let object2 = {
+// name: "Zeenat",
+// age: 21,
+// Fname: "Haider",
+// cast: "Ali",
+// rollNo: 0156
+// }
+// function SaveObject(key, val){
+// let newObject = JSON.stringify(val);
+// localStorage.setItem(key, newObject)
+// }
+// SaveObject("data of obj", object);
+// SaveObject("data of obj2", object2)
 
 
 // 
